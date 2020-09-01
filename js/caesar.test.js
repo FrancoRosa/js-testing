@@ -25,7 +25,7 @@ describe('Caesar', () => {
 
   it('ciphers strings containing uppercase and lowercase values', () => {
     expect(caesar('MultiCase', 1)).toEqual('NvmujDbtf');
-  })
+  });
 
   it('ciphers uppercase text', () => {
     expect(caesar('UPPERCASE', 1)).toEqual('VQQFSDBTF');

@@ -24,7 +24,7 @@ const analyze = (arr) => {
     min: arr.length > 0 ? min(arr) : null,
     max: arr.length > 0 ? max(arr) : null,
     length: length(arr),
-  }
-}
+  };
+};
 
 export default analyze;

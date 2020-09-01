@@ -1,7 +1,7 @@
 
 import analyze from './analyze';
 
-describe('Analize', () => {
+describe('Analyze', () => {
   test('should throw an error if any of the imput are not numbers', () => {
     expect(() => {
       analyze([1, 2, 'a']);
@@ -25,7 +25,7 @@ describe('Analize', () => {
   });
 
   describe('Min', () => {
-    test('should calculate the minimun', () => {
+    test('should calculate the minimum', () => {
       expect(analyze([1, 2, 3]).min).toEqual(1);
     });
     test('should return null if the array is empty', () => {
@@ -34,7 +34,7 @@ describe('Analize', () => {
   });
 
   describe('Max', () => {
-    test('should calculate the maximun', () => {
+    test('should calculate the maximum', () => {
       expect(analyze([1, 2, 3]).max).toEqual(3);
     });
     test('should return null if the array is empty', () => {
@@ -51,4 +51,3 @@ describe('Analize', () => {
     });
   });
 });
-
