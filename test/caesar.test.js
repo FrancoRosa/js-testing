@@ -1,4 +1,4 @@
-import caesar from './caesar';
+import caesar from '../js/caesar';
 
 describe('Caesar', () => {
   it('chiphers a string with the provided key', () => {

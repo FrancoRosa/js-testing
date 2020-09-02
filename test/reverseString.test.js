@@ -1,4 +1,4 @@
-import reverseString from './reverseString';
+import reverseString from '../js/reverseString';
 
 describe('reverseString', () => {
   it('reverses a string', () => {

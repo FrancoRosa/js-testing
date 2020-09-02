@@ -1,5 +1,5 @@
 
-import analyze from './analyze';
+import analyze from '../js/analyze';
 
 describe('Analyze', () => {
   test('should throw an error if any of the imput are not numbers', () => {
